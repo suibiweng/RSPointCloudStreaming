@@ -11,7 +11,7 @@ Material:
   m_Shader: {fileID: 4800000, guid: f4bfa79a74dcafd4abd6dfd2893a9f5c, type: 3}
   m_ValidKeywords: []
   m_InvalidKeywords: []
-  m_LightmapFlags: 0
+  m_LightmapFlags: 4
   m_EnableInstancingVariants: 1
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
@@ -30,7 +30,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     - _Depth:
         m_Texture: {fileID: 2800000, guid: b35c4d66914c6014e9a9e2081452b0a6, type: 3}
-        m_Scale: {x: 0, y: 1}
+        m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DetailAlbedoMap:
         m_Texture: {fileID: 0}
@@ -84,7 +84,7 @@ Material:
     m_Floats:
     - _ASEOutlineWidth: 0
     - _BumScale: 0.26
-    - _BumpScale: 0.3
+    - _BumpScale: 0.76
     - _Cutoff: 0.02
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
@@ -97,8 +97,8 @@ Material:
     - _Mode: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.02
-    - _PointDensity: 324.98
-    - _Scale: 0.66
+    - _PointDensity: 500
+    - _Scale: 0.62
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
